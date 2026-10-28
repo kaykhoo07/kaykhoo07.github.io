@@ -284,3 +284,13 @@
   reduceMotion.addEventListener('change', build);
   build();
 })();
+
+/* Optional demo videos: "Watch demo" buttons marked data-video-optional start hidden and
+   appear once their file is listed in window.READY_VIDEOS (js/projects.js).
+   A list instead of a server check, so no request (or 404) is made for a missing video. */
+(function () {
+  const ready = window.READY_VIDEOS || [];
+  document.querySelectorAll('[data-video-optional]').forEach(function (t) {
+    if (ready.indexOf(t.getAttribute('data-video')) !== -1) t.hidden = false;
+  });
+})();

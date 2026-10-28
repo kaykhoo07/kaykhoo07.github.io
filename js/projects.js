@@ -15,6 +15,14 @@ window.GITHUB_LINKS = {
 };
 
 /* ==========================================================================
+   Demo videos that exist. EcoShop's "Watch demo" buttons stay hidden until its
+   video is listed here: save the file in assets/videos/, then add its path.
+   ========================================================================== */
+window.READY_VIDEOS = [
+  // 'assets/videos/ecoshop-demo.mp4',   // TODO: uncomment once the file is in assets/videos/
+];
+
+/* ==========================================================================
    "More projects" list. To add a project, add one entry here; nothing else needs changing.
 
    Required:  id, name, description, tags

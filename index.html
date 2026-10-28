@@ -76,29 +76,36 @@
     <div class="projects">
 
       <article class="project-card project-card--main">
-        <div class="media-project-main">
-          <img class="media-img" src="assets/images/project-arcane-vault.webp" width="1200" height="667" alt="Arcane Vault card detail page showing Mega Charizard X ex with its price, condition selector and a “Back to My Collection” button">
+        <!-- TODO: add the landing-page screenshot as assets/images/ecoshop.png, then remove "hidden"
+             from this well and change data-src to src. Hidden, nothing is requested. -->
+        <div class="media-project-main" hidden>
+          <img class="media-img" data-src="assets/images/ecoshop.png" alt="EcoShop home page with products on a kitchen counter">
+          <!-- Demo video: hidden until assets/videos/ecoshop-demo.mp4 exists (see js/main.js) -->
+          <button type="button" class="demo-cover" data-video="assets/videos/ecoshop-demo.mp4" data-video-title="EcoShop demo" data-video-optional hidden>
+            <span class="demo-play"><svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13a1 1 0 0 0 1.5.86l10.5-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5z"></path></svg>Watch demo</span>
+          </button>
         </div>
         <div class="project-body">
           <div class="project-meta">
-            <span class="pill">Main project</span>
-            <span class="meta-text">ASP.NET Core · Azure</span>
+            <span class="pill">E-commerce</span>
           </div>
-          <h3 class="project-name">Arcane Vault — collection portfolio &amp; appraisal</h3>
-          <p class="project-desc">A web app for trading card collectors. You can scan your cards, and the app uses AI to recognise each one and show its current market price. I built it with C# and ASP.NET Core and put it online with Azure.</p>
+          <h3 class="project-name">EcoShop</h3>
+          <p class="project-desc">A demo online shop for eco-friendly products. You can browse, add to cart and pay with a Stripe test card. I built secure accounts, a cart that only trusts prices from the server, Stripe payments confirmed by webhooks, order history and an admin area.</p>
           <div class="tags">
-            <span class="tag">C#</span>
-            <span class="tag">ASP.NET Core</span>
+            <span class="tag">Python</span>
+            <span class="tag">Flask</span>
+            <span class="tag">Stripe</span>
             <span class="tag">SQLite</span>
-            <span class="tag">Azure</span>
-            <span class="tag">Gemini API</span>
           </div>
           <div class="project-links">
-            <a class="project-link" href="https://myarcanevault-gahcf6bnhsdrf2fv.eastasia-01.azurewebsites.net/" target="_blank" rel="noopener noreferrer" aria-label="Arcane Vault live demo (opens in a new tab)">Live Demo
+            <button type="button" class="project-link project-link--button" data-video="assets/videos/ecoshop-demo.mp4" data-video-title="EcoShop demo" data-video-optional hidden>Watch demo
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13a1 1 0 0 0 1.5.86l10.5-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5z"></path></svg>
+            </button>
+            <a class="project-link" href="https://kayden07.pythonanywhere.com/" target="_blank" rel="noopener noreferrer" aria-label="EcoShop live demo (opens in a new tab)">Live Demo
               <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7"></path><path d="M8 7h9v9"></path></svg>
             </a>
-            <!-- TODO: GitHub URL goes in js/projects.js, GITHUB_LINKS['arcane-vault'] -->
-            <a class="project-link" data-github="arcane-vault" href="#" aria-label="Arcane Vault on GitHub"><svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor" aria-hidden="true"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.49 0-.24-.01-1.04-.01-1.89-2.78.62-3.37-1.2-3.37-1.2-.45-1.19-1.11-1.5-1.11-1.5-.91-.64.07-.63.07-.63 1 .07 1.53 1.06 1.53 1.06.89 1.57 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.06 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.71 0 0 .84-.28 2.75 1.05a9.3 9.3 0 0 1 2.5-.35c.85 0 1.71.12 2.5.35 1.91-1.33 2.75-1.05 2.75-1.05.55 1.41.2 2.45.1 2.71.64.72 1.03 1.63 1.03 2.75 0 3.93-2.35 4.8-4.58 5.05.36.32.68.95.68 1.92 0 1.39-.01 2.51-.01 2.85 0 .28.18.6.69.49A10.11 10.11 0 0 0 22 12.25C22 6.58 17.52 2 12 2z"></path></svg>
+            <!-- TODO: GitHub URL goes in js/projects.js, GITHUB_LINKS['ecoshop'] -->
+            <a class="project-link" data-github="ecoshop" href="#" aria-label="EcoShop on GitHub"><svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor" aria-hidden="true"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.49 0-.24-.01-1.04-.01-1.89-2.78.62-3.37-1.2-3.37-1.2-.45-1.19-1.11-1.5-1.11-1.5-.91-.64.07-.63.07-.63 1 .07 1.53 1.06 1.53 1.06.89 1.57 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.06 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.71 0 0 .84-.28 2.75 1.05a9.3 9.3 0 0 1 2.5-.35c.85 0 1.71.12 2.5.35 1.91-1.33 2.75-1.05 2.75-1.05.55 1.41.2 2.45.1 2.71.64.72 1.03 1.63 1.03 2.75 0 3.93-2.35 4.8-4.58 5.05.36.32.68.95.68 1.92 0 1.39-.01 2.51-.01 2.85 0 .28.18.6.69.49A10.11 10.11 0 0 0 22 12.25C22 6.58 17.52 2 12 2z"></path></svg>
               GitHub
               <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7"></path><path d="M8 7h9v9"></path></svg>
             </a>
@@ -106,21 +113,21 @@
         </div>
       </article>
 
-      <article class="project-card project-card--resume">
-        <div class="media-project-resume">
+      <article class="project-card project-card--side">
+        <div class="media-project-side">
           <img class="media-img" src="assets/images/resumematch.png" width="1909" height="900" alt="ResumeMatch login page with the headline “your next role awaits!” and a sign-in form">
           <button type="button" class="demo-cover" data-video="assets/videos/resumematch-demo.mp4" data-video-title="ResumeMatch demo">
             <span class="demo-play"><svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13a1 1 0 0 0 1.5.86l10.5-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5z"></path></svg>Watch demo</span>
           </button>
         </div>
-        <div class="project-body--resume">
+        <div class="project-body--side">
           <div class="project-meta">
             <span class="pill">Full-stack</span>
             <span class="meta-text">2025</span>
           </div>
-          <h3 class="project-name project-name--resume">ResumeMatch</h3>
-          <p class="project-desc project-desc--resume">Upload your resume and a job description, and ResumeMatch gives you a match score and tells you what to improve. I designed the interface and connected it to Google's Gemini AI to do the analysis.</p>
-          <div class="tags tags--resume">
+          <h3 class="project-name project-name--side">ResumeMatch</h3>
+          <p class="project-desc project-desc--side">Upload your resume and a job description, and ResumeMatch gives you a match score and tells you what to improve. I designed the interface and connected it to Google's Gemini AI to do the analysis.</p>
+          <div class="tags tags--side">
             <span class="tag">Python</span>
             <span class="tag">Flask</span>
             <span class="tag">Gemini API</span>
@@ -138,24 +145,30 @@
         </div>
       </article>
 
-      <article class="project-card project-card--compact">
-        <!-- TODO: add a screenshot as assets/images/ecoshop.png, then remove "hidden" from this well
-             and change data-src to src. Hidden, the card is text-only and nothing is requested. -->
-        <div class="project-thumb" hidden>
-          <img class="media-img" data-src="assets/images/ecoshop.png" alt="EcoShop online store showing eco-friendly products">
+      <article class="project-card project-card--side">
+        <div class="media-project-side">
+          <img class="media-img" src="assets/images/project-arcane-vault.webp" width="1200" height="667" alt="Arcane Vault card detail page showing Mega Charizard X ex with its price, condition selector and a “Back to My Collection” button">
         </div>
-        <div class="project-body--compact">
-          <span class="pill">E-commerce</span>
-          <h3 class="project-name project-name--compact">EcoShop</h3>
-          <p class="project-desc">A full-featured online shop for eco-friendly products. Shoppers can create an account, log in securely, search for products and pay at checkout: the same login and payment systems that financial apps rely on.</p>
-          <div class="tags tags--compact">
-            <span class="tag">Full-stack</span>
-            <span class="tag">Authentication</span>
-            <span class="tag">Payments</span>
+        <div class="project-body--side">
+          <div class="project-meta">
+            <span class="pill">Main project</span>
+            <span class="meta-text">ASP.NET Core · Azure</span>
+          </div>
+          <h3 class="project-name project-name--side">Arcane Vault — collection portfolio &amp; appraisal</h3>
+          <p class="project-desc project-desc--side">A web app for trading card collectors. You can scan your cards, and the app uses AI to recognise each one and show its current market price. I built it with C# and ASP.NET Core and put it online with Azure.</p>
+          <div class="tags tags--side">
+            <span class="tag">C#</span>
+            <span class="tag">ASP.NET Core</span>
+            <span class="tag">SQLite</span>
+            <span class="tag">Azure</span>
+            <span class="tag">Gemini API</span>
           </div>
           <div class="project-links">
-            <!-- TODO: GitHub URL goes in js/projects.js, GITHUB_LINKS['ecoshop'] -->
-            <a class="project-link" data-github="ecoshop" href="#" aria-label="EcoShop on GitHub"><svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor" aria-hidden="true"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.49 0-.24-.01-1.04-.01-1.89-2.78.62-3.37-1.2-3.37-1.2-.45-1.19-1.11-1.5-1.11-1.5-.91-.64.07-.63.07-.63 1 .07 1.53 1.06 1.53 1.06.89 1.57 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.06 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.71 0 0 .84-.28 2.75 1.05a9.3 9.3 0 0 1 2.5-.35c.85 0 1.71.12 2.5.35 1.91-1.33 2.75-1.05 2.75-1.05.55 1.41.2 2.45.1 2.71.64.72 1.03 1.63 1.03 2.75 0 3.93-2.35 4.8-4.58 5.05.36.32.68.95.68 1.92 0 1.39-.01 2.51-.01 2.85 0 .28.18.6.69.49A10.11 10.11 0 0 0 22 12.25C22 6.58 17.52 2 12 2z"></path></svg>
+            <a class="project-link" href="https://myarcanevault-gahcf6bnhsdrf2fv.eastasia-01.azurewebsites.net/" target="_blank" rel="noopener noreferrer" aria-label="Arcane Vault live demo (opens in a new tab)">Live Demo
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7"></path><path d="M8 7h9v9"></path></svg>
+            </a>
+            <!-- TODO: GitHub URL goes in js/projects.js, GITHUB_LINKS['arcane-vault'] -->
+            <a class="project-link" data-github="arcane-vault" href="#" aria-label="Arcane Vault on GitHub"><svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor" aria-hidden="true"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.49 0-.24-.01-1.04-.01-1.89-2.78.62-3.37-1.2-3.37-1.2-.45-1.19-1.11-1.5-1.11-1.5-.91-.64.07-.63.07-.63 1 .07 1.53 1.06 1.53 1.06.89 1.57 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.06 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.71 0 0 .84-.28 2.75 1.05a9.3 9.3 0 0 1 2.5-.35c.85 0 1.71.12 2.5.35 1.91-1.33 2.75-1.05 2.75-1.05.55 1.41.2 2.45.1 2.71.64.72 1.03 1.63 1.03 2.75 0 3.93-2.35 4.8-4.58 5.05.36.32.68.95.68 1.92 0 1.39-.01 2.51-.01 2.85 0 .28.18.6.69.49A10.11 10.11 0 0 0 22 12.25C22 6.58 17.52 2 12 2z"></path></svg>
               GitHub
               <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7"></path><path d="M8 7h9v9"></path></svg>
             </a>
