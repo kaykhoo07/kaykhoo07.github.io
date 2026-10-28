@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kayden Khoo | Portfolio</title>
+<meta name="description" content="Portfolio of Kayden Khoo, a Business &amp; Financial Technology student at Nanyang Polytechnic, Singapore, building full-stack and fintech web apps with ASP.NET Core, C#, React and Python. Featured projects, achievements, stack and contact.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="page">
+
+  <header class="site-header">
+    <nav class="site-nav" aria-label="Primary">
+      <a class="nav-link" href="#work">Work</a>
+      <a class="nav-link" href="#projects" hidden>Projects</a>
+      <a class="nav-link" href="#achievements">Achievements</a>
+      <a class="nav-link" href="#stack">Stack</a>
+      <a class="nav-link" href="#about">About</a>
+      <span class="availability">
+        <span class="availability-dot" aria-hidden="true"></span>Available
+      </span>
+      <a class="nav-cta" href="mailto:kaykhoo07@gmail.com">Let's work together</a>
+    </nav>
+  </header>
+
+  <main>
+  <section class="hero">
+    <div>
+      <p class="hero-eyebrow">Kayden Khoo · Singapore</p>
+      <h1 class="hero-title">Full-stack developer building <em>fintech &amp; data</em> web applications.</h1>
+      <p class="hero-sub">Business &amp; Financial Technology student at Nanyang Polytechnic, building web apps with C#, Python and AI.</p>
+      <div class="hero-actions">
+        <a class="btn-primary" href="#work">View my work
+          <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h13"></path><path d="M13 6l6 6-6 6"></path></svg>
+        </a>
+        <a class="btn-link" href="mailto:kaykhoo07@gmail.com">Get in touch</a>
+      </div>
+      <div class="hero-facts">
+        <div>
+          <p class="fact-label">Based</p>
+          <p class="fact-value">Singapore · UTC+8</p>
+        </div>
+        <div>
+          <p class="fact-label">Toolchain</p>
+          <p class="fact-value">ASP.NET Core · C#</p>
+        </div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="browser-frame">
+        <div class="browser-bar">
+          <span class="browser-dot"></span>
+          <span class="browser-dot"></span>
+          <span class="browser-dot"></span>
+          <span class="browser-url">arcane-vault.azurewebsites.net</span>
+        </div>
+        <div class="media-hero">
+          <img class="media-img" src="assets/images/hero-arcane-vault.webp" width="946" height="675" alt="Arcane Vault landing page: a fan of Pokémon trading cards above the headline “Your Entire Master Set, Managed in One Place.”">
+        </div>
+      </div>
+      <div class="hero-badge">ASP.NET&nbsp;CORE&nbsp;·&nbsp;GEMINI&nbsp;VISION&nbsp;·&nbsp;AZURE</div>
+    </div>
+  </section>
+
+  <section id="work" class="section section--work">
+    <div class="section-head">
+      <h2 class="section-title">Featured work</h2>
+      <a class="section-link" data-github="profile" href="https://github.com/kaydenkhoo07" target="_blank" rel="noopener noreferrer">View all projects on GitHub
+        <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7"></path><path d="M8 7h9v9"></path></svg>
+      </a>
+    </div>
+    <div class="projects">
+
+      <article class="project-card project-card--main">
+        <div class="media-project-main">
+          <img class="media-img" src="assets/images/project-arcane-vault.webp" width="1200" height="667" alt="Arcane Vault card detail page showing Mega Charizard X ex with its price, condition selector and a “Back to My Collection” button">
+        </div>
+        <div class="project-body">
+          <div class="project-meta">
+            <span class="pill">Main project</span>
+            <span class="meta-text">ASP.NET Core · Azure</span>
+          </div>
+          <h3 class="project-name">Arcane Vault — collection portfolio &amp; appraisal</h3>
+          <p class="project-desc">A web app for trading card collectors. You can scan your cards, and the app uses AI to recognise each one and show its current market price. I built it with C# and ASP.NET Core and put it online with Azure.</p>
+          <div class="tags">
+            <span class="tag">C#</span>
+            <span class="tag">ASP.NET Core</span>
+            <span class="tag">SQLite</span>
+            <span class="tag">Azure</span>
+            <span class="tag">Gemini API</span>
+          </div>
+          <div class="project-links">
+            <a class="project-link" href="https://myarcanevault-gahcf6bnhsdrf2fv.eastasia-01.azurewebsites.net/" target="_blank" rel="noopener noreferrer" aria-label="Arcane Vault live demo (opens in a new tab)">Live Demo
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7"></path><path d="M8 7h9v9"></path></svg>
+            </a>
+            <!-- TODO: GitHub URL goes in js/projects.js, GITHUB_LINKS['arcane-vault'] -->
+            <a class="project-link" data-github="arcane-vault" href="#" aria-label="Arcane Vault on GitHub"><svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor" aria-hidden="true"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.49 0-.24-.01-1.04-.01-1.89-2.78.62-3.37-1.2-3.37-1.2-.45-1.19-1.11-1.5-1.11-1.5-.91-.64.07-.63.07-.63 1 .07 1.53 1.06 1.53 1.06.89 1.57 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.06 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.71 0 0 .84-.28 2.75 1.05a9.3 9.3 0 0 1 2.5-.35c.85 0 1.71.12 2.5.35 1.91-1.33 2.75-1.05 2.75-1.05.55 1.41.2 2.45.1 2.71.64.72 1.03 1.63 1.03 2.75 0 3.93-2.35 4.8-4.58 5.05.36.32.68.95.68 1.92 0 1.39-.01 2.51-.01 2.85 0 .28.18.6.69.49A10.11 10.11 0 0 0 22 12.25C22 6.58 17.52 2 12 2z"></path></svg>
+              GitHub
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7"></path><path d="M8 7h9v9"></path></svg>
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card project-card--resume">
+        <div class="media-project-resume">
+          <img class="media-img" src="assets/images/resumematch.png" width="1909" height="900" alt="ResumeMatch login page with the headline “your next role awaits!” and a sign-in form">
+          <button type="button" class="demo-cover" data-video="assets/videos/resumematch-demo.mp4" data-video-title="ResumeMatch demo">
+            <span class="demo-play"><svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13a1 1 0 0 0 1.5.86l10.5-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5z"></path></svg>Watch demo</span>
+          </button>
+        </div>
+        <div class="project-body--resume">
+          <div class="project-meta">
+            <span class="pill">Full-stack</span>
+            <span class="meta-text">2025</span>
+          </div>
+          <h3 class="project-name project-name--resume">ResumeMatch</h3>
+          <p class="project-desc project-desc--resume">Upload your resume and a job description, and ResumeMatch gives you a match score and tells you what to improve. I designed the interface and connected it to Google's Gemini AI to do the analysis.</p>
+          <div class="tags tags--resume">
+            <span class="tag">Python</span>
+            <span class="tag">Flask</span>
+            <span class="tag">Gemini API</span>
+          </div>
+          <div class="project-links">
+            <button type="button" class="project-link project-link--button" data-video="assets/videos/resumematch-demo.mp4" data-video-title="ResumeMatch demo">Watch demo
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13a1 1 0 0 0 1.5.86l10.5-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5z"></path></svg>
+            </button>
+            <!-- TODO: GitHub URL goes in js/projects.js, GITHUB_LINKS['resumematch'] -->
+            <a class="project-link" data-github="resumematch" href="#" aria-label="ResumeMatch on GitHub"><svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor" aria-hidden="true"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.49 0-.24-.01-1.04-.01-1.89-2.78.62-3.37-1.2-3.37-1.2-.45-1.19-1.11-1.5-1.11-1.5-.91-.64.07-.63.07-.63 1 .07 1.53 1.06 1.53 1.06.89 1.57 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.06 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.71 0 0 .84-.28 2.75 1.05a9.3 9.3 0 0 1 2.5-.35c.85 0 1.71.12 2.5.35 1.91-1.33 2.75-1.05 2.75-1.05.55 1.41.2 2.45.1 2.71.64.72 1.03 1.63 1.03 2.75 0 3.93-2.35 4.8-4.58 5.05.36.32.68.95.68 1.92 0 1.39-.01 2.51-.01 2.85 0 .28.18.6.69.49A10.11 10.11 0 0 0 22 12.25C22 6.58 17.52 2 12 2z"></path></svg>
+              GitHub
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7"></path><path d="M8 7h9v9"></path></svg>
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card project-card--compact">
+        <!-- TODO: add a screenshot as assets/images/ecoshop.png, then remove "hidden" from this well
+             and change data-src to src. Hidden, the card is text-only and nothing is requested. -->
+        <div class="project-thumb" hidden>
+          <img class="media-img" data-src="assets/images/ecoshop.png" alt="EcoShop online store showing eco-friendly products">
+        </div>
+        <div class="project-body--compact">
+          <span class="pill">E-commerce</span>
+          <h3 class="project-name project-name--compact">EcoShop</h3>
+          <p class="project-desc">A full-featured online shop for eco-friendly products. Shoppers can create an account, log in securely, search for products and pay at checkout: the same login and payment systems that financial apps rely on.</p>
+          <div class="tags tags--compact">
+            <span class="tag">Full-stack</span>
+            <span class="tag">Authentication</span>
+            <span class="tag">Payments</span>
+          </div>
+          <div class="project-links">
+            <!-- TODO: GitHub URL goes in js/projects.js, GITHUB_LINKS['ecoshop'] -->
+            <a class="project-link" data-github="ecoshop" href="#" aria-label="EcoShop on GitHub"><svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor" aria-hidden="true"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.49 0-.24-.01-1.04-.01-1.89-2.78.62-3.37-1.2-3.37-1.2-.45-1.19-1.11-1.5-1.11-1.5-.91-.64.07-.63.07-.63 1 .07 1.53 1.06 1.53 1.06.89 1.57 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.06 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.71 0 0 .84-.28 2.75 1.05a9.3 9.3 0 0 1 2.5-.35c.85 0 1.71.12 2.5.35 1.91-1.33 2.75-1.05 2.75-1.05.55 1.41.2 2.45.1 2.71.64.72 1.03 1.63 1.03 2.75 0 3.93-2.35 4.8-4.58 5.05.36.32.68.95.68 1.92 0 1.39-.01 2.51-.01 2.85 0 .28.18.6.69.49A10.11 10.11 0 0 0 22 12.25C22 6.58 17.52 2 12 2z"></path></svg>
+              GitHub
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7"></path><path d="M8 7h9v9"></path></svg>
+            </a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Cards are built from js/projects.js: to add a project, add one entry there.
+       This section and its "Projects" nav link stay hidden while that list is empty. -->
+  <section id="projects" class="section" hidden>
+    <h2 class="section-title">More projects</h2>
+    <div class="more-projects" data-projects></div>
+  </section>
+
+  <section id="achievements" class="section">
+    <div class="section-head section-head--carousel">
+      <h2 class="section-title">Achievements &amp; competitions</h2>
+      <div class="carousel-arrows">
+        <button type="button" class="carousel-arrow" data-carousel-dir="-1" aria-controls="achievements-viewport" aria-label="Show previous achievements"><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H6"></path><path d="M11 6l-6 6 6 6"></path></svg></button>
+        <button type="button" class="carousel-arrow" data-carousel-dir="1" aria-controls="achievements-viewport" aria-label="Show next achievements"><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h13"></path><path d="M13 6l6 6-6 6"></path></svg></button>
+      </div>
+    </div>
+    <div class="carousel" role="region" aria-roledescription="carousel" aria-label="Achievements and competitions" data-carousel>
+      <div class="carousel-viewport" id="achievements-viewport">
+        <div class="carousel-rail">
+          <!-- Each <article> is one card. To add an achievement, add one card here;
+               js/main.js copies the cards to make the seamless loop. -->
+          <div class="carousel-track">
+          <article class="achievement" tabindex="0">
+            <div class="achievement-head">
+              <span class="pill">Award</span>
+              <span class="meta-text">2025–2026</span>
+            </div>
+            <h3 class="achievement-name">Director's List × 3</h3>
+            <p class="achievement-desc">Top academic performers for three semesters in a row: Year 1 Semester 1 &amp; 2, and Year 2 Semester 1.</p>
+            <span class="achievement-org">Nanyang Polytechnic</span>
+          </article>
+          <article class="achievement" tabindex="0">
+            <div class="achievement-head">
+              <span class="pill">Participant</span>
+              <span class="meta-text">2026</span>
+            </div>
+            <h3 class="achievement-name">Singapore Informatics League 2026</h3>
+            <p class="achievement-desc">Competed in a national programming competition.</p>
+            <span class="achievement-org">Singapore Informatics League</span>
+          </article>
+          <article class="achievement" tabindex="0">
+            <div class="achievement-head">
+              <span class="pill">Completed</span>
+            </div>
+            <h3 class="achievement-name">BuildingBloCS AI Ready</h3>
+            <p class="achievement-desc">Completed hands-on training in building with AI.</p>
+            <span class="achievement-org">BuildingBloCS</span>
+          </article>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="stack" class="section">
+    <h2 class="section-title">Stack</h2>
+    <div class="stack-primary">
+      <span class="stack-chip">C#</span>
+      <span class="stack-chip">ASP.NET Core</span>
+      <span class="stack-chip">Python</span>
+      <span class="stack-chip">Flask</span>
+      <span class="stack-chip">JavaScript</span>
+      <span class="stack-chip">HTML/CSS</span>
+      <span class="stack-chip">Oracle SQL</span>
+      <span class="stack-chip">SQLite</span>
+      <span class="stack-chip">Power BI</span>
+      <span class="stack-chip">DAX</span>
+      <span class="stack-chip">Azure</span>
+      <span class="stack-chip">Gemini API</span>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="about-card">
+      <div class="about-bio">
+        <h2 class="about-title">About</h2>
+        <img class="about-photo" src="assets/images/kayden.png" width="96" height="96" alt="Portrait of Kayden Khoo">
+        <p class="about-text">Hi, I'm Kayden, a Business &amp; Financial Technology student at Nanyang Polytechnic in Singapore. I like building things that are useful in real life, so most of my projects are complete web apps, from the database behind them to the screen people use. I'm interested in the space where finance, data and software meet, and I enjoy taking messy information and turning it into something simple and clear. I've been on the Director's List for three semesters in a row, and I'm now looking for a 1-year internship where I can learn from an experienced team and work on real products.</p>
+      </div>
+      <div>
+        <p class="about-label">Focus</p>
+        <p class="about-value">Fintech web apps · AI integration · Data</p>
+      </div>
+      <div>
+        <p class="about-label">Currently</p>
+        <p class="about-value">Nanyang Polytechnic, Singapore</p>
+      </div>
+      <div>
+        <p class="about-label">Looking for</p>
+        <p class="about-value about-value--strong">1-year software / fintech internship</p>
+      </div>
+    </div>
+  </section>
+  </main>
+
+  <footer id="contact" class="site-footer">
+    <div class="footer-panel">
+      <h2 class="footer-title">Open to internships and freelance software work.</h2>
+      <div class="footer-links">
+        <a class="footer-link" data-github="profile" href="https://github.com/kaydenkhoo07" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor" aria-hidden="true"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.49 0-.24-.01-1.04-.01-1.89-2.78.62-3.37-1.2-3.37-1.2-.45-1.19-1.11-1.5-1.11-1.5-.91-.64.07-.63.07-.63 1 .07 1.53 1.06 1.53 1.06.89 1.57 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.06 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.71 0 0 .84-.28 2.75 1.05a9.3 9.3 0 0 1 2.5-.35c.85 0 1.71.12 2.5.35 1.91-1.33 2.75-1.05 2.75-1.05.55 1.41.2 2.45.1 2.71.64.72 1.03 1.63 1.03 2.75 0 3.93-2.35 4.8-4.58 5.05.36.32.68.95.68 1.92 0 1.39-.01 2.51-.01 2.85 0 .28.18.6.69.49A10.11 10.11 0 0 0 22 12.25C22 6.58 17.52 2 12 2z"></path></svg>GitHub
+        </a>
+        <a class="footer-link" href="https://www.linkedin.com/in/kayden-khoo-5b4143366" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3V9zm7 0h3.8v1.7h.05c.53-.95 1.82-1.95 3.75-1.95 4 0 4.4 2.4 4.4 5.55V21h-4v-5.9c0-1.4-.03-3.2-2-3.2-1.98 0-2.28 1.5-2.28 3.1V21H10V9z"></path></svg>LinkedIn
+        </a>
+        <a class="footer-link" href="mailto:kaykhoo07@gmail.com">
+          <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="4.5" width="19" height="15" rx="2.5"></rect><path d="m3 7 9 6 9-6"></path></svg>Email
+        </a>
+        <!-- TODO: add your CV as assets/resume.pdf, then remove the hidden attribute -->
+        <a class="footer-link" href="assets/resume.pdf" hidden target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2.5H6.5a2 2 0 0 0-2 2v15a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V8z"></path><path d="M14 2.5V8h5.5"></path><path d="M8.5 13h7"></path><path d="M8.5 17h7"></path></svg>Resume / CV
+        </a>
+      </div>
+    </div>
+    <p class="copyright">© 2026 Kayden Khoo</p>
+  </footer>
+</div>
+
+<!-- Video lightbox: opened by any element with data-video="path/to/video.mp4" (see js/main.js) -->
+<dialog class="lightbox" aria-label="Project demo video">
+  <div class="lightbox-inner">
+    <button type="button" class="lightbox-close" aria-label="Close video">
+      <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12"></path><path d="M18 6L6 18"></path></svg>
+    </button>
+    <video class="lightbox-video" controls muted playsinline preload="none"></video>
+  </div>
+</dialog>
+<script src="js/projects.js" defer></script>
+<script src="js/main.js" defer></script>
+</body>
+</html>
