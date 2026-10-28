@@ -8,7 +8,7 @@
 window.SHOW_GITHUB_PLACEHOLDERS = false;
 
 window.GITHUB_LINKS = {
-  'profile':        'https://github.com/kaydenkhoo07', // footer button + "View all projects on GitHub"
+  'profile':        'https://github.com/kaykhoo07', // footer button + "View all projects on GitHub"
   'arcane-vault':   '#', // TODO: Arcane Vault repository URL (Featured work)
   'resumematch':    '#', // TODO: ResumeMatch repository URL (Featured work)
   'ecoshop':        '#'  // TODO: EcoShop repository URL (Featured work)
