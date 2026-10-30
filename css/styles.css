@@ -406,10 +406,10 @@ a:where(:hover) { color:#8F3313; }
 
 .project-card { display:flex; flex-direction:column; background:#FFF; border:1px solid rgba(0,0,0,0.08); border-radius:18px; padding:12px; color:#1E1C19; box-shadow:0 4px 20px rgba(0,0,0,0.04); transition:transform 220ms ease, box-shadow 220ms ease, border-color 220ms ease; }
 .project-card:hover { transform:translateY(-4px); box-shadow:0 26px 46px -30px rgba(30,28,25,0.45); border-color:#C2481E; }
-.project-card--main { grid-column:span 7; grid-row:span 2; align-self:stretch; }
+.project-card--main { grid-column:span 7; grid-row:span 2; align-self:start; }
 .project-card--side { grid-column:span 5; }
 
-.media-project-main { position:relative; width:100%; aspect-ratio:16/10; border-radius:12px; overflow:hidden; background:#F2EDE6; }
+.media-project-main { position:relative; width:100%; aspect-ratio:2/1; border-radius:12px; overflow:hidden; background:#F2EDE6; }
 .media-project-side { position:relative; width:100%; aspect-ratio:16/9; border-radius:12px; overflow:hidden; background:#F2EDE6; }
 
 .project-body { padding:22px 12px 12px; display:flex; flex-direction:column; gap:12px; flex:1; }
