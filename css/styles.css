@@ -338,7 +338,6 @@ a:where(:hover) { color:#8F3313; }
 ::selection { background:#F4DED2; }
 /* placeholders waiting for a URL or file stay hidden, even on flex/grid elements */
 [hidden] { display:none !important; }
-@keyframes kk-pulse { 0%,100% { opacity:1; } 50% { opacity:0.3; } }
 
 /* ==========================================================================
    Page wrapper
@@ -352,8 +351,6 @@ a:where(:hover) { color:#8F3313; }
 .site-nav { display:flex; flex-wrap:wrap; align-items:center; justify-content:flex-end; gap:14px 18px; font-size:12px; color:#4A453F; }
 .nav-link { color:#4A453F; }
 .nav-link:hover { color:#C2481E; }
-.availability { display:flex; align-items:center; gap:7px; font-size:11px; color:#4A453F; }
-.availability-dot { width:6px; height:6px; border-radius:50%; background:#C2481E; animation:kk-pulse 2.2s ease-in-out infinite; }
 .nav-cta { background:#1E1C19; color:#FFF; padding:9px 16px; border-radius:999px; font-size:12px; font-weight:500; white-space:nowrap; }
 .nav-cta:hover { background:#C2481E; color:#FFF; }
 
@@ -361,7 +358,6 @@ a:where(:hover) { color:#8F3313; }
    Hero
    ========================================================================== */
 .hero { max-width:1240px; margin:0 auto; background:#F0E4D8; border-radius:22px; padding:clamp(28px,4.4vw,60px); display:grid; grid-template-columns:minmax(0,1.02fr) minmax(0,1fr); gap:clamp(28px,4vw,56px); align-items:center; }
-.hero-eyebrow { margin:0 0 22px; display:inline-flex; align-items:center; gap:8px; font-size:11px; letter-spacing:0.08em; text-transform:uppercase; color:#8F3313; background:#F8E7DC; border-radius:999px; padding:7px 13px; white-space:nowrap; }
 .hero-title { margin:0 0 22px; font-family:'Playfair Display', Georgia, serif; font-weight:700; font-size:clamp(34px,4.5vw,60px); line-height:1.06; letter-spacing:-0.025em; text-wrap:pretty; max-width:20ch; }
 .hero-title em { font-style:italic; font-weight:600; color:#C2481E; }
 .hero-sub { margin:0; font-family:'Inter', system-ui, sans-serif; font-size:15px; line-height:1.6; color:#4A453F; text-wrap:pretty; }
